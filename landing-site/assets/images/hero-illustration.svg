@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="12" fill="#071025" />
+  <g transform="translate(48,48)">
+    <rect x="0" y="0" width="704" height="320" rx="12" fill="url(#g)" opacity="0.08"/>
+    <g fill="#e6eef8" font-family="Inter, Arial, sans-serif">
+      <text x="16" y="50" font-size="28" font-weight="700">Tech illustration</text>
+      <text x="16" y="88" font-size="16" fill="#9fb1c8">Visualizing product flows and AI-powered features</text>
+    </g>
+  </g>
+</svg>

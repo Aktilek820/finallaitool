@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Кейс: Маркетплейс 3D — DemoTech</title>
+  <meta name="description" content="Кейс: запуск маркетплейса 3D-изделий и оптимизация logistik.">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta property="og:title" content="Кейс: Маркетплейс 3D — DemoTech">
+  <meta property="og:description" content="Кейс: запуск маркетплейса 3D-изделий и оптимизация логистики.">
+  <meta property="og:image" content="assets/images/portfolio-photo-2.svg">
+
+  <!-- Google Analytics (GA4): set YOUR_GA_ID as G-XXXXXXXX -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX', { 'anonymize_ip': true });
+  </script>
+
+  <!-- Calendly widget (set your Calendly URL) -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+  <script defer src="js/main.js"></script>
+</head>
+<body class="page page--case">
+  <a class="skip-link" href="#main">Перейти к контенту</a>
+  <header class="header js-header">
+    <div class="container header__inner">
+      <a class="logo" href="index.html">Demo<span class="logo__accent">Tech</span></a>
+      <nav class="nav js-nav">
+        <button class="nav__toggle js-nav-toggle" aria-expanded="false" aria-controls="main-nav">Меню</button>
+        <ul class="nav__list" id="main-nav">
+          <li><a href="index.html" class="nav__link">Главная</a></li>
+          <li><a href="portfolio.html" class="nav__link">Портфолио</a></li>
+          <li><a href="blog.html" class="nav__link">Блог</a></li>
+          <li><a href="contact.html" class="nav__link nav__link--cta">Связаться</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section section--hero">
+      <div class="container">
+        <h1 class="section__title">Маркетплейс 3D — запуск и оптимизация</h1>
+        <p class="section__lead">Разработка каталога, интеграция оплаты и упрощённый процесс заказа.</p>
+      </div>
+    </section>
+
+    <section class="section case-study reveal">
+      <div class="container">
+        <h2>Задача</h2>
+        <p>Сделать каталог для уникальных 3D-изделий, упростить заказ и внедрить систему предзаказов.</p>
+
+        <h3>Результаты</h3>
+        <ul>
+          <li>Привлечение первых клиентов за 2 месяца</li>
+          <li>Снижение времени заказа на 45%</li>
+        </ul>
+
+        <h3>Галерея</h3>
+        <div class="portfolio-grid">
+          <button class="featured-card js-open-lightbox" data-src="assets/images/portfolio-photo-2.svg" aria-label="Открыть изображение кейса"><img src="assets/images/portfolio-photo-2.svg" alt="3D marketplace" loading="lazy"></button>
+          <button class="featured-card js-open-lightbox" data-src="assets/images/portfolio-photo-3.svg" aria-label="Открыть изображение кейса"><img src="assets/images/portfolio-photo-3.svg" alt="AI personalization" loading="lazy"></button>
+        </div>
+
+        <div style="margin-top:1rem"><a class="btn btn--primary" href="contact.html">Запросить кейс</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">© DemoTech — кейс</div>
+  </footer>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="lightbox__inner">
+      <button class="lightbox__close" aria-label="Закрыть">×</button>
+      <img src="" alt="">
+    </div>
+  </div>
+</body>
+</html>

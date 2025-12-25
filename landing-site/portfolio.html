@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Портфолио — DemoTech</title>
+  <meta name="description" content="Кейсы: продукты, которые мы запускали — веб, мобильные и AI-проекты." />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta property="og:title" content="Портфолио — DemoTech">
+  <meta property="og:description" content="Кейсы: продукты, которые мы запускали — веб, мобильные и AI-проекты.">
+  <meta property="og:image" content="assets/images/og-portfolio.svg">
+
+  <!-- Google Analytics (GA4): set YOUR_GA_ID as G-XXXXXXXX -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX', { 'anonymize_ip': true });
+  </script>
+
+  <!-- Calendly widget (set your Calendly URL) -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+  <script defer src="js/main.js"></script>
+</head>
+<body class="page page--portfolio">
+  <a class="skip-link" href="#main">Перейти к контенту</a>
+  <header class="header js-header">
+    <div class="container header__inner">
+      <a class="logo" href="index.html">Demo<span class="logo__accent">Tech</span></a>
+      <nav class="nav js-nav">
+        <button class="nav__toggle js-nav-toggle" aria-expanded="false" aria-controls="main-nav">Меню</button>
+        <ul class="nav__list" id="main-nav">
+          <li><a href="index.html" class="nav__link">Главная</a></li>
+          <li><a href="services.html" class="nav__link">Услуги</a></li>
+          <li><a href="portfolio.html" class="nav__link nav__link--active">Портфолио</a></li>
+          <li><a href="blog.html" class="nav__link">Блог</a></li>
+          <li><a href="about.html" class="nav__link">О нас</a></li>
+          <li><a href="contact.html" class="nav__link nav__link--cta">Связаться</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--hero">
+      <div class="container">
+        <h1 class="section__title">Наши кейсы</h1>
+        <p class="section__lead">Решения, которые приводят к росту: от MVP до масштабируемой платформы.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="container">
+        <div class="portfolio-grid">
+          <article class="featured-card">
+            <img src="assets/images/portfolio-photo-1.svg" alt="Fintech project" width="600" height="340" loading="lazy">
+            <div class="featured-card__body">
+              <h3>Финтех: скоринг и автоматизация</h3>
+              <p>Интеграция ML-модели, автоматизация принятия решений, сокращение ручной модерации на 74%.</p>
+              <a class="btn" href="case-fintech.html">Подробнее</a>
+            </div>
+          </article>
+
+          <article class="featured-card">
+            <img src="assets/images/portfolio-photo-2.svg" alt="3D marketplace" width="600" height="340" loading="lazy">
+            <div class="featured-card__body">
+              <h3>Маркетплейс 3D изделий</h3>
+              <p>MVP, первый поток заказов и оптимизация логистики поставок.</p>
+              <a class="btn" href="case-3d.html">Подробнее</a>
+            </div>
+          </article>
+
+          <article class="featured-card">
+            <img src="assets/images/portfolio-photo-3.svg" alt="AI personalization" width="600" height="340" loading="lazy">
+            <div class="featured-card__body">
+              <h3>AI-персонализация</h3>
+              <p>Рекомендательные модели и автоматизация контента для увеличения конверсии.</p>
+              <a class="btn" href="case-ai.html">Подробнее</a>
+            </div>
+          </article>
+          <article class="featured-card">
+            <img src="assets/images/gallery-photo-4.svg" alt="Gallery 4" loading="lazy">
+            <div class="featured-card__body">
+              <h3>Dashboard & Analytics</h3>
+              <p>Интерактивная аналитика и персонализированные дашборды.</p>
+              <a class="btn" href="case-ai.html">Подробнее</a>
+            </div>
+          </article>
+
+          <article class="featured-card">
+            <img src="assets/images/gallery-photo-5.svg" alt="Gallery 5" loading="lazy">
+            <div class="featured-card__body">
+              <h3>Интерфейс магазина</h3>
+              <p>Оптимизированный UX для увеличения конверсии.</p>
+              <a class="btn" href="case-3d.html">Подробнее</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section get-started">
+      <div class="container">
+        <h2>Хотите такой же результат?</h2>
+        <p>Запросите кейс или бесплатную консультацию — мы подготовим дорожную карту.</p>
+        <a class="btn btn--primary" href="contact.html">Запросить кейс</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">© DemoTech — портфолио</div>
+  </footer>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="lightbox__inner">
+      <button class="lightbox__close" aria-label="Закрыть">×</button>
+      <img src="" alt="">
+    </div>
+  </div>
+</body>
+</html>

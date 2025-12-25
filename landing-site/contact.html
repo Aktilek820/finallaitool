@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Контакты — DemoTech</title>
+  <meta name="description" content="Свяжитесь с нами — бесплатная консультация, запросы по проектам, WhatsApp" />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta property="og:title" content="Контакты — DemoTech">
+  <meta property="og:description" content="Свяжитесь с нами — бесплатная консультация, запросы по проектам, WhatsApp">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/contact">
+  <meta property="og:image" content="assets/images/og-contact.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#071025">
+
+  <!-- Google Analytics (GA4): set YOUR_GA_ID as G-XXXXXXXX -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX', { 'anonymize_ip': true });
+  </script>
+
+  <!-- Calendly widget (set your Calendly URL) -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+  <script defer src="js/main.js"></script>
+</head>
+<body class="page page--contact">
+  <a class="skip-link" href="#main">Перейти к контенту</a>
+  <header class="header js-header">
+    <div class="container header__inner">
+      <a class="logo" href="index.html">Demo<span class="logo__accent">Tech</span></a>
+      <nav class="nav js-nav">
+        <button class="nav__toggle js-nav-toggle" aria-expanded="false" aria-controls="main-nav">Меню</button>
+        <ul class="nav__list" id="main-nav">
+          <li><a href="index.html" class="nav__link">Главная</a></li>
+          <li><a href="services.html" class="nav__link">Услуги</a></li>
+          <li><a href="portfolio.html" class="nav__link">Портфолио</a></li>
+          <li><a href="blog.html" class="nav__link">Блог</a></li>
+          <li><a href="about.html" class="nav__link">О нас</a></li>
+          <li><a href="contact.html" class="nav__link nav__link--cta">Связаться</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--hero">
+      <div class="container">
+        <h1 class="section__title">Свяжитесь с нами</h1>
+        <p class="section__lead">Заполните форму — мы ответим в течение 24 часов. Или напишите в WhatsApp.</p>
+      </div>
+    </section>
+
+    <section class="section contact-form">
+      <div class="container">
+        <form class="form js-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+          <input type="hidden" name="form-name" value="contact">
+          <input type="hidden" name="bot-field">
+          <div class="form__row">
+            <label for="name">Имя</label>
+            <input id="name" name="name" type="text" required minlength="2">
+          </div>
+          <div class="form__row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+          <div class="form__row">
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+          </div>
+          <div class="form__actions">
+            <button class="btn btn--primary" type="submit">Отправить</button>
+            <button class="btn btn--secondary" type="button" data-calendly="https://calendly.com/YOUR-COMPANY/demo-30" aria-haspopup="dialog">Запланировать демо</button>
+            <a class="btn btn--ghost" href="https://wa.me/79991234567" target="_blank" rel="noopener">Написать в WhatsApp</a>
+          </div>
+          <div class="form__notice js-form-notice" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section map">
+      <div class="container">
+        <h2 class="section__title">Где мы</h2>
+        <div class="map-placeholder">Карта / локация</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">© DemoTech</div>
+  </footer>
+</body>
+</html>

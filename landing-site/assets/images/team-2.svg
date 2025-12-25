@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <rect width="100%" height="100%" rx="20" fill="#071025" />
+  <circle cx="180" cy="110" r="60" fill="#061226" />
+  <text x="50%" y="240" fill="#e6eef8" font-size="26" font-family="Inter, Arial, sans-serif" text-anchor="middle">Ольга</text>
+</svg>

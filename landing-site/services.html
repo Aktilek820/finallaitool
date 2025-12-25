@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Услуги — DemoTech</title>
+  <meta name="description" content="Подробно об услугах: веб, мобильные приложения, AI-решения и поддержка." />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta property="og:title" content="Услуги — DemoTech">
+  <meta property="og:description" content="Подробно об услугах: веб, мобильные приложения, AI-решения и поддержка.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/services">
+  <meta property="og:image" content="assets/images/og-services.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#071025">
+
+  <!-- Google Analytics (GA4): set YOUR_GA_ID as G-XXXXXXXX -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX', { 'anonymize_ip': true });
+  </script>
+
+  <!-- Calendly widget (set your Calendly URL) -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+  <script defer src="js/main.js"></script>
+</head>
+<body class="page page--services">
+  <a class="skip-link" href="#main">Перейти к контенту</a>
+  <header class="header js-header">
+    <div class="container header__inner">
+      <a class="logo" href="index.html">Demo<span class="logo__accent">Tech</span></a>
+      <nav class="nav js-nav">
+        <button class="nav__toggle js-nav-toggle" aria-expanded="false" aria-controls="main-nav">Меню</button>
+        <ul class="nav__list" id="main-nav">
+          <li><a href="index.html" class="nav__link">Главная</a></li>
+          <li><a href="services.html" class="nav__link">Услуги</a></li>
+          <li><a href="portfolio.html" class="nav__link">Портфолио</a></li>
+          <li><a href="blog.html" class="nav__link">Блог</a></li>
+          <li><a href="about.html" class="nav__link">О нас</a></li>
+          <li><a href="contact.html" class="nav__link nav__link--cta">Связаться</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--hero">
+      <div class="container">
+        <h1 class="section__title">Услуги</h1>
+        <p class="section__lead">Реализуем сложные проекты с пониманием бизнеса и пользователя.</p>
+      </div>
+    </section>
+
+    <section class="section services-detail">
+      <div class="container">
+        <div class="services-grid--detail">
+          <article class="service-detail">
+            <h3>Веб-разработка</h3>
+            <p>От SEO-оптимизированных сайтов до масштабируемых SaaS-платформ. Технологии: React, Next.js, Node.js.</p>
+            <a class="btn" href="#">Запросить пример</a>
+          </article>
+          <article class="service-detail">
+            <h3>Мобильные приложения</h3>
+            <p>Кастомные iOS/Android приложения и кроссплатформенные решения. Фокус на UX и производительности.</p>
+            <a class="btn" href="#">Обсудить проект</a>
+          </article>
+          <article class="service-detail">
+            <h3>AI & ML</h3>
+            <p>Решения по персонализации, обработке изображений, предиктивной аналитике и автоматизации процессов.</p>
+            <a class="btn" href="#">Получить консультацию</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pricing">
+      <div class="container">
+        <h2 class="section__title">Модели сотрудничества</h2>
+        <p class="section__lead">Гибкие модели: фиксированная цена для MVP, time & materials для проектов в развитии, и долгосрочный аутсорсинг.</p>
+        <div class="pricing-grid">
+          <article class="price-card">
+            <div class="price-card__title">MVP — фикс</div>
+            <p>От 6–8 недель. Чётко ограниченный объём и быстрый результат.</p>
+            <a class="btn" href="contact.html">Запросить оценку</a>
+          </article>
+          <article class="price-card">
+            <div class="price-card__title">T&M — развитие</div>
+            <p>Подходит для непрерывной работы и быстрых итераций, прозрачный биллинг.</p>
+            <a class="btn" href="contact.html">Обсудить контракт</a>
+          </article>
+          <article class="price-card">
+            <div class="price-card__title">Dedicated team</div>
+            <p>Команда под проект с SLA, ежемесячными отчетами и поддержкой 24/7.</p>
+            <a class="btn" href="contact.html">Запросить команду</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq">
+      <div class="container">
+        <h2 class="section__title">Частые вопросы</h2>
+        <div class="faq">
+          <div class="faq-item">
+            <div class="faq-q">Сколько стоит MVP?</div>
+            <div class="faq-a">Типичный бюджет для MVP — от $8k до $40k в зависимости от сложности и интеграций.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">Как вы обеспечиваете качество?</div>
+            <div class="faq-a">Автоматические тесты, код-ревью, CI/CD и промежуточные демо — всё включено в процесс.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section case">
+      <div class="container">
+        <h2 class="section__title">Кейсы</h2>
+        <div class="case-grid">
+          <article class="case-card">
+            <h3>Финтех платформа</h3>
+            <p>Интегрировали ML-модель для скоринга, сократили ручную модерацию на 74%.</p>
+          </article>
+          <article class="case-card">
+            <h3>Маркетплейс 3D изделий</h3>
+            <p>Запустили MVP, привлекли первых клиентов за 2 месяца.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section get-started">
+      <div class="container">
+        <h2>Начнём</h2>
+        <p>Мы готовы взять ваш проект на этап MVP и довести до релиза.</p>
+        <a class="btn btn--primary" href="contact.html">Получить план</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">© DemoTech — все права защищены</div>
+  </footer>
+</body>
+</html>

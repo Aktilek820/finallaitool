@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>IT Outsourcing & AI Solutions — Demo Agency</title>
+  <meta name="description" content="Web, mobile, and AI solutions for startups — Get a demo and accelerate your product." />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta property="og:title" content="DemoTech — IT Outsourcing & AI Solutions">
+  <meta property="og:description" content="Web, mobile, and AI solutions for startups — get a demo and accelerate your product.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/">
+  <meta property="og:image" content="assets/images/og-home.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#071025">
+
+  <!-- Google Analytics (GA4): set YOUR_GA_ID as G-XXXXXXXX -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX', { 'anonymize_ip': true });
+  </script>
+
+  <!-- Calendly widget (set your Calendly URL) -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"DemoTech","url":"https://example.com","logo":"https://example.com/assets/icons/favicon.svg"}</script>
+  <script defer src="js/main.js"></script>
+</head>
+<body class="page page--home">
+  <a class="skip-link" href="#main">Перейти к контенту</a>
+  <header class="header js-header">
+    <div class="container header__inner">
+      <a class="logo" href="index.html">Demo<span class="logo__accent">Tech</span></a>
+      <nav class="nav js-nav">
+        <button class="nav__toggle js-nav-toggle" aria-expanded="false" aria-controls="main-nav">Меню</button>
+        <ul class="nav__list" id="main-nav">
+          <li><a href="index.html" class="nav__link">Главная</a></li>
+          <li><a href="services.html" class="nav__link">Услуги</a></li>
+          <li><a href="portfolio.html" class="nav__link">Портфолио</a></li>
+          <li><a href="blog.html" class="nav__link">Блог</a></li>
+          <li><a href="about.html" class="nav__link">О нас</a></li>
+          <li><a href="contact.html" class="nav__link nav__link--cta">Связаться</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">Ваш продукт. Меньше риска. Быстрее к рынку.</h1>
+          <p class="hero__subtitle">Мы предоставляем веб, мобильные, и AI-решения для стартапов и малого бизнеса. От идеи до масштабирования — с прозрачными сроками и результатом.</p>
+          <div class="hero__kpis">
+          <span>10+ лет опыта</span>
+          <span>100+ проектов</span>
+          <span>98% удержание клиентов</span>
+        </div>
+        <div class="hero__ctas">
+            <a class="btn btn--primary" href="contact.html">Заказать консультацию</a>
+            <a class="btn btn--ghost" href="portfolio.html">Посмотреть портфолио</a>
+            <a class="btn btn--ghost" href="#services">Посмотреть услуги</a>
+        </div>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <img src="assets/images/photo-hero-1.svg" alt="Hero photo" class="hero-illustration" width="560" height="340">
+      </div>
+    </section>
+
+    <!-- BENEFITS -->
+    <section id="services" class="section benefits">
+      <div class="container">
+        <h2 class="section__title">Результат, а не только код</h2>
+        <p class="section__lead">Мы фокусируемся на росте метрик: скорость вывода продукта, снижение стоимости поддержки, и увеличение конверсии.</p>
+        <div class="benefits__grid">
+          <article class="card card--benefit">
+            <div class="card__icon">🚀</div>
+            <h3 class="card__title">Быстрый запуск</h3>
+            <p class="card__text">MVP за 6–8 недель, готовый для тестирования с реальными пользователями.</p>
+          </article>
+          <article class="card card--benefit">
+            <div class="card__icon">🤖</div>
+            <h3 class="card__title">AI & Автоматизация</h3>
+            <p class="card__text">Интеграции ML/AI для персонализации и снижения ручного труда.</p>
+          </article>
+          <article class="card card--benefit">
+            <div class="card__icon">🔒</div>
+            <h3 class="card__title">Безопасность и поддержка</h3>
+            <p class="card__text">Промежуточные релизы, поддержка 24/7 и SLA по договору.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES PREVIEW -->
+    <section class="section services-preview">
+      <div class="container">
+        <h2 class="section__title">Наши услуги</h2>
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>Веб-разработка</h3>
+            <p>React, Next.js, SEO и производительность под ключ.</p>
+          </article>
+          <article class="service-card">
+            <h3>Мобильные приложения</h3>
+            <p>iOS, Android, кроссплатформенные решения с нативным UX.</p>
+          </article>
+          <article class="service-card">
+            <h3>AI & ML</h3>
+            <p>Рекомендации, обработка изображений и автогенерация контента.</p>
+          </article>
+        </div>
+        <div class="section__actions"><a class="btn" href="services.html">Все услуги</a></div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS -->
+    <section class="section featured-projects">
+      <div class="container">
+        <h2 class="section__title">Избранные проекты</h2>
+        <p class="section__lead">Пара кейсов, которые демонстрируют наш подход и результаты.</p>
+        <div class="portfolio-grid">
+          <article class="featured-card">
+            <img src="assets/images/portfolio-photo-1.svg" alt="Fintech project" width="600" height="340">
+            <div class="featured-card__body">
+              <h3>Финтех: скоринг</h3>
+              <p class="text-muted">ML-интеграция, сокращение ручной модерации.</p>
+            </div>
+          </article>
+
+          <article class="featured-card">
+            <img src="assets/images/portfolio-photo-2.svg" alt="3D marketplace" width="600" height="340">
+            <div class="featured-card__body">
+              <h3>Маркетплейс 3D</h3>
+              <p class="text-muted">MVP и поток заказов.</p>
+            </div>
+          </article>
+
+          <article class="featured-card">
+            <img src="assets/images/portfolio-photo-3.svg" alt="AI personalization" width="600" height="340">
+            <div class="featured-card__body">
+              <h3>AI персонализация</h3>
+              <p class="text-muted">Рекомендации и рост конверсии.</p>
+            </div>
+          </article>
+        </div>
+        <div class="section__actions" style="margin-top:1rem"><a class="btn btn--primary" href="portfolio.html">В портфолио</a></div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section how">
+      <div class="container">
+        <h2 class="section__title">Как мы работаем</h2>
+        <ol class="how__steps">
+          <li><strong>1. Оценка</strong> — краткая консультация и оценка данных KPI.</li>
+          <li><strong>2. Прототип</strong> — быстрый MVP для проверки гипотез.</li>
+          <li><strong>3. Выпуск</strong> — развертывание и аналитика.</li>
+          <li><strong>4. Рост</strong> — оптимизация и масштаб.</li>
+        </ol>
+      </div>
+    </section> 
+
+    <!-- TESTIMONIALS -->
+    <section class="section testimonials reveal">
+      <div class="container">
+        <h2 class="section__title">Клиенты говорят</h2>
+        <div class="testimonials">
+          <div class="testimonials__track">
+            <blockquote class="testimonial">
+              <p>"Команда реализовала сложную интеграцию с нашим API за 3 недели — результат превзошёл ожидания."</p>
+              <cite>— Алексей, CEO стартапа FinScore</cite>
+            </blockquote>
+            <blockquote class="testimonial">
+              <p>"Надёжно, предсказуемо и в срок. Поддержка работает круглосуточно."</p>
+              <cite>— Марина, Product Manager</cite>
+            </blockquote>
+          </div>
+          <div class="testimonials__controls">
+            <button class="testimonials__prev" aria-label="Previous testimonial">‹</button>
+            <button class="testimonials__next" aria-label="Next testimonial">›</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="section cta-final">
+      <div class="container">
+        <h2 class="section__title">Готовы ускорить продукт?</h2>
+        <p class="section__lead">Запланируйте бесплатную консультацию и получите план запуска MVP.</p>
+        <a class="btn btn--primary btn--xl" href="contact.html">Заказать консультацию</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__left">© DemoTech 2025 — IT Outsourcing & AI</div>
+      <div class="footer__right">Контакты: <a href="mailto:hello@demotech.example">hello@demotech.example</a> · <a href="#">Телефон</a></div>
+    </div>
+  </footer>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="lightbox__inner">
+      <button class="lightbox__close" aria-label="Закрыть">×</button>
+      <img src="" alt="">
+    </div>
+  </div>
+</body>
+</html>

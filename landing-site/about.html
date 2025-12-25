@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>О нас — DemoTech</title>
+  <meta name="description" content="О компании DemoTech: опыт, команда и гарантии качества." />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta property="og:title" content="О нас — DemoTech">
+  <meta property="og:description" content="О компании DemoTech: опыт, команда и гарантии качества.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/about">
+  <meta property="og:image" content="assets/images/og-about.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#071025">
+
+  <!-- Google Analytics (GA4): set YOUR_GA_ID as G-XXXXXXXX -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX', { 'anonymize_ip': true });
+  </script>
+
+  <!-- Calendly widget (set your Calendly URL) -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+  <script defer src="js/main.js"></script>
+</head>
+<body class="page page--about">
+  <a class="skip-link" href="#main">Перейти к контенту</a>
+  <header class="header js-header">
+    <div class="container header__inner">
+      <a class="logo" href="index.html">Demo<span class="logo__accent">Tech</span></a>
+      <nav class="nav js-nav">
+        <button class="nav__toggle js-nav-toggle" aria-expanded="false" aria-controls="main-nav">Меню</button>
+        <ul class="nav__list" id="main-nav">
+          <li><a href="index.html" class="nav__link">Главная</a></li>
+          <li><a href="services.html" class="nav__link">Услуги</a></li>
+          <li><a href="portfolio.html" class="nav__link">Портфолио</a></li>
+          <li><a href="blog.html" class="nav__link">Блог</a></li>
+          <li><a href="about.html" class="nav__link">О нас</a></li>
+          <li><a href="contact.html" class="nav__link nav__link--cta">Связаться</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--hero">
+      <div class="container">
+        <h1 class="section__title">Почему выбирают нас</h1>
+        <p class="section__lead">Опытные команды, прозрачные процессы и гарантии качества.</p>
+      </div>
+    </section>
+
+    <section class="section stats reveal">
+      <div class="container stats__grid">
+        <div class="stat">
+          <div class="stat__value" data-target="10">0</div>
+          <div class="stat__label">лет опыта</div>
+        </div>
+        <div class="stat">
+          <div class="stat__value" data-target="100">0</div>
+          <div class="stat__label">проектов</div>
+        </div>
+        <div class="stat">
+          <div class="stat__value" data-target="98">0</div>
+          <div class="stat__label">% удержание клиентов</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team">
+      <div class="container">
+        <h2 class="section__title">Команда</h2>
+        <p class="section__lead">Команда из разработчиков, дизайнеров и PM с опытом в стартапах и enterprise.</p>
+        <div class="team-grid">
+          <figure class="team-member"><img src="assets/images/team-1-photo.svg" alt="Андрей" loading="lazy"><figcaption>Андрей — CTO</figcaption></figure>
+          <figure class="team-member"><img src="assets/images/team-2-photo.svg" alt="Ольга" loading="lazy"><figcaption>Ольга — Product</figcaption></figure>
+          <figure class="team-member"><img src="assets/images/team-3-photo.svg" alt="Иван" loading="lazy"><figcaption>Иван — Lead Developer</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section clients">
+      <div class="container">
+        <h2 class="section__title">Клиенты</h2>
+        <p class="section__lead">Мы работали с компаниями от стартапов до enterprise.</p>
+        <div class="client-logos">
+          <img src="assets/images/client-1.svg" alt="FinCo" loading="lazy">
+          <img src="assets/images/client-2.svg" alt="3DMarket" loading="lazy">
+          <img src="assets/images/client-3.svg" alt="AutoLab" loading="lazy">
+          <img src="assets/images/portfolio-photo-1.svg" alt="Project sample" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="section timeline">
+      <div class="container">
+        <h2 class="section__title">Наша история</h2>
+        <div class="timeline">
+          <div class="timeline-item"><strong>2015</strong> — Основание компании</div>
+          <div class="timeline-item"><strong>2018</strong> — Первые enterprise-клиенты</div>
+          <div class="timeline-item"><strong>2022</strong> — Запуск AI-практики</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">© DemoTech</div>
+  </footer>
+</body>
+</html>

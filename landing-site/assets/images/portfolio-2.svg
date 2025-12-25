@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" rx="18" fill="#071025"/>
+  <g fill="#e6eef8" font-family="Inter, Arial, sans-serif">
+    <rect x="60" y="60" width="1080" height="420" rx="12" fill="#061226"/>
+    <text x="90" y="160" font-size="36" font-weight="700">Маркетплейс 3D</text>
+    <text x="90" y="210" font-size="18" fill="#9fb1c8">MVP и поток заказов</text>
+  </g>
+</svg>
